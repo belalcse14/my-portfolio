@@ -3,6 +3,10 @@ body {
   font-family: open sans, sans-serif;
 }
 
+body p {
+  color: #474747;
+}
+
 /* Shared Styles */
 .color-primary {
   color: #474747;
@@ -13,6 +17,10 @@ body {
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* header Styles */
@@ -64,6 +72,9 @@ nav li a {
   margin-right: 35px;
 }
 
+.banner-text p {
+  text-align: left;
+}
 .banner-text h3 {
   font-size: 30px;
   font-weight: 600;
@@ -102,8 +113,15 @@ nav li a {
   margin-bottom: 100px;
 }
 
-.Skills h3 {
+.Skills h3,
+p {
   text-align: center;
+}
+
+.cards p {
+  text-align: left;
+  font-size: 14px;
+  color: #474747;
 }
 
 .skill-cards {
@@ -112,6 +130,68 @@ nav li a {
 }
 .cards {
   padding: 10px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
+}
+
+/* Resume section Styles */
+
+.resume-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-left: 230px;
+  margin-right: 230px;
+  margin-bottom: 100px;
+}
+
+.resume-section p {
+  text-align: left;
+}
+.resume-title {
+  text-align: center;
+  font-size: 26px;
+}
+.resume {
+  display: flex;
+  gap: 50px;
+}
+
+.resume-download-btn {
+  margin-top: 10px;
+}
+
+/* Footer Style */
+
+.footer-section {
+  background-color: #fff8f3;
+  margin: 0 auto;
+  /* margin-left: 230px;
+  margin-right: 230px; */
+  padding: 100px 230px;
+}
+.contact-us {
+  display: flex;
+  gap: 50px;
+}
+.contact-link p {
+  text-align: left;
+  color: #474747;
+  font-size: 14px;
+}
+footer input[type="text"],
+input[type="email"] {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+footer textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 15px;
 }
