@@ -7,6 +7,10 @@ body p {
   color: #474747;
 }
 
+body h3 {
+  color: #181818;
+}
+
 /* Shared Styles */
 .color-primary {
   color: #474747;
@@ -102,6 +106,12 @@ nav li a {
   justify-content: space-around;
 }
 
+.about-details-info {
+  margin: none;
+  font-weight: bold;
+  color: #181818;
+}
+
 /* SKILLS */
 
 .Skills {
@@ -129,9 +139,15 @@ p {
   gap: 50px;
 }
 .cards {
-  padding: 10px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
+}
+
+.cards img {
+  height: 30px;
+  width: 30px;
 }
 
 /* Resume section Styles */
