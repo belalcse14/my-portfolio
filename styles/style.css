@@ -14,9 +14,12 @@ body {
   border-radius: 5px;
   border: none;
 }
+
 /* header Styles */
 header {
-  background-color: #fff8f3;
+  background-image: url("../images/developer.png"), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
 
 /* nav Styles */
@@ -57,6 +60,58 @@ nav li a {
   margin-left: 230px;
 }
 .banner-section img {
-  width: 50%;
+  width: 580px;
   margin-right: 35px;
+}
+
+.banner-text h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.banner-text h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+/* About me styles */
+
+.about-me {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 230px;
+  margin-right: 230px;
+  background-color: #fff8f3;
+  padding: 10px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* SKILLS */
+
+.Skills {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-left: 230px;
+  margin-right: 230px;
+  margin-bottom: 100px;
+}
+
+.Skills h3 {
+  text-align: center;
+}
+
+.skill-cards {
+  display: flex;
+  gap: 50px;
+}
+.cards {
+  padding: 10px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
