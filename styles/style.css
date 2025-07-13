@@ -21,6 +21,12 @@ body h3 {
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #af4900;
+  scale: 1.05;
+  transition: ease-in-out 0.25s;
 }
 
 .text-center {
@@ -58,6 +64,9 @@ nav ul {
 nav li a {
   text-decoration: none;
   color: #474747;
+}
+nav li a:hover {
+  border-bottom: 2px solid orangered;
 }
 
 /* banner style */
@@ -144,6 +153,10 @@ p {
   box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
+.cards:hover {
+  scale: 1.05;
+  transition: ease 0.25s;
+}
 
 .cards img {
   height: 30px;
@@ -194,6 +207,14 @@ p {
   color: #474747;
   font-size: 14px;
 }
+.contact-link img {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.contact-link img:hover {
+  border-bottom: 2px solid orangered;
+}
+
 footer input[type="text"],
 input[type="email"] {
   width: 100%;
